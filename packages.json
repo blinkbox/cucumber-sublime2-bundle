@@ -8,10 +8,10 @@
 			"homepage": "https://github.com/blinkbox/cucumber-sublime2-bundle",
 			"last_modified": "2013-03-22 23:04:31",
 			"platforms": {
-				"osx": [
+				"*": [
 					{
 						"version": "1.0.0",
-						"url": "https://nodeload.github.com/blinkbox/cucumber-sublime2-bundle"
+						"url": "https://nodeload.github.com/blinkbox/cucumber-sublime2-bundle/zip/master"
 					}
 				]
 			}
