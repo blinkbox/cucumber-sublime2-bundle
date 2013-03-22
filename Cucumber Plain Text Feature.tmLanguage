@@ -56,7 +56,7 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#table</string>
+			<string>#table_row</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -74,21 +74,21 @@
 			<key>match</key>
 			<string>\s*(#.*)</string>
 		</dict>
-		<key>table</key>
+		<key>table_row</key>
 		<dict>
 			<key>begin</key>
 			<string>^\s*\|</string>
 			<key>end</key>
 			<string>\|\s*$</string>
 			<key>name</key>
-			<string>keyword.control.cucumber.table</string>
+			<string>meta.cucumber.table_row</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
-					<string>\w</string>
+					<string>[^\|\s]</string>
 					<key>name</key>
-					<string>source</string>
+					<string>variable.parameter.cucumber.table_row</string>
 				</dict>
 			</array>
 		</dict>
@@ -148,7 +148,7 @@
 			<key>end</key>
 			<string>&gt;</string>
 			<key>name</key>
-			<string>variable.other</string>
+			<string>variable.parameter.cucumber.scenario_outline</string>
 		</dict>
 		<key>strings_double_quote</key>
 		<dict>

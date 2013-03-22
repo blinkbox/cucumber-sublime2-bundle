@@ -16,6 +16,10 @@ A bundle for [Sublime Text 2](http://www.sublimetext.com/2) that provides syntax
 
 Restart Sublime Text 2
 
+## Indentation support
+
+Auto-indents as you type. Use the "Indentation: Reindent lines" to re-indent the whole file.
+
 ## Table Cleaner
 
 Aligns and cleans the tables for a prettier output. Useful for programming languages like Cucumber or LaTex.
