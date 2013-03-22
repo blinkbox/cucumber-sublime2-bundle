@@ -11,7 +11,7 @@
 				"*": [
 					{
 						"version": "1.0.0",
-						"url": "https://nodeload.github.com/blinkbox/cucumber-sublime2-bundle/zip/master"
+						"url": "https://nodeload.github.com/blinkbox/cucumber-sublime2-bundle/zipball/master""
 					}
 				]
 			}
